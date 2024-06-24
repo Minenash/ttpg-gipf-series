@@ -1,0 +1,119 @@
+{
+	"Type": "Generic",
+	"GUID": "6FA216FE450870A61393F2AFA3B75B40",
+	"Name": "Black Angle Left",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Plastic",
+	"Roughness": 0.25,
+	"Metallic": 0.25,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "punct.angle.obj",
+			"Offset":
+			{
+				"X": 1.74,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 2,
+				"Y": 2,
+				"Z": 2
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "punct/punct.black.angle.left.png",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [
+		{
+			"Model": "punct.angle.colider.obj",
+			"Offset":
+			{
+				"X": 1.74,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 2,
+				"Y": 2,
+				"Z": 2
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		},
+		{
+			"Model": "punct.angle.colider.obj",
+			"Offset":
+			{
+				"X": 1.74,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 2,
+				"Y": 2,
+				"Z": 2
+			},
+			"Rotation":
+			{
+				"X": 180,
+				"Y": 7.8406726410132397e-47,
+				"Z": 180
+			},
+			"Type": "Convex"
+		}
+	],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": []
+}

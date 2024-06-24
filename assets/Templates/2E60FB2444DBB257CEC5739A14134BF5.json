@@ -1,0 +1,1025 @@
+{
+	"Type": "Generic",
+	"GUID": "2E60FB2444DBB257CEC5739A14134BF5",
+	"Name": "Hybrid Board - by Trystonian",
+	"Metadata": "",
+	"CollisionType": "Ground",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Wood",
+	"Roughness": 0.6,
+	"Metallic": 0.3,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "Blueprints/Board.json",
+	"Models": [
+		{
+			"Model": "generic.board.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 2.1463414134912204,
+				"Y": 1.9999999584786261,
+				"Z": 1.9998749176399375
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "hybrid.board.trystonian.png",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [],
+	"Lights": [],
+	"SnapPointsGlobal": true,
+	"SnapPoints": [
+		{
+			"X": -6.537142465309433,
+			"Y": -15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": -15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": -15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": -11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": -11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": -11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": -11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": -11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": -7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": -7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": -7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": -7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": -7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": -3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": -3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": -3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": -3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": -3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": 0,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": 0,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": 0,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": 0,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": 3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": 3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": 3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": 3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": 3.7819043237183729,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": 7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": 7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": 7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": 7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": 7.5638086474367459,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -13.074284930618866,
+			"Y": 11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": 11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": 11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": 11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.074284930618866,
+			"Y": 11.345712971155118,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -6.537142465309433,
+			"Y": 15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0,
+			"Y": 15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 6.537142465309433,
+			"Y": 15.127617294873492,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": -17.018569956276359,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": -17.018569956276359,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": -13.236665382786143,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": -13.236665382786143,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": -13.236665382786143,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": -13.236665382786143,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": -9.4547608092959319,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": -9.4547608092959319,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": -9.4547608092959319,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": -9.4547608092959319,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -16.342856163273584,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 16.342856163273584,
+			"Y": -5.6728562358057193,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -16.342856163273584,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 16.342856163273584,
+			"Y": -1.8909516623155072,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -16.342856163273584,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 16.342856163273584,
+			"Y": 1.890952911174705,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -16.342856163273584,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 16.342856163273584,
+			"Y": 5.6728574846649176,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": 9.4547620581551293,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": 9.4547620581551293,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": 9.4547620581551293,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": 9.4547620581551293,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.8057136979641495,
+			"Y": 13.236666631645342,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": 13.236666631645342,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": 13.236666631645342,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.8057136979641495,
+			"Y": 13.236666631645342,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.2685712326547165,
+			"Y": 17.018571205135554,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.2685712326547165,
+			"Y": 17.018571205135554,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.7428570661035998,
+			"Y": -17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 13.828571356693836,
+			"Y": -17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 17.914285647284068,
+			"Y": -17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -18.123808952390725,
+			"Y": 17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -14.038094661800491,
+			"Y": 17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -9.952380371210257,
+			"Y": 17.180952024264009,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -18.071428151091247,
+			"Y": -17.023808670839866,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": -18.071428151091247,
+			"Y": -10.266665654253728,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 17.914285297603495,
+			"Y": 10.895238068862943,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		},
+		{
+			"X": 17.914285297603495,
+			"Y": 17.652381085449083,
+			"Z": 0.14999062706424041,
+			"Range": 2.06345,
+			"SnapRotation": 5,
+			"RotationOffset": 0,
+			"Shape": 1,
+			"FlipValidity": 0
+		}
+	],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": []
+}

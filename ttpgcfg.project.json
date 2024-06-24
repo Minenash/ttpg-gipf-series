@@ -1,0 +1,10 @@
+{
+  "name": "Project GIPF (All 7 Games)",
+  "slug": "full-series",
+  "version": "1.0.0",
+  "transpile": true,
+  "guid": {
+    "dev": "62667C674A0945E1AF56C079686DC3C6",
+    "prd": "2383AF963F3E40E285B18A2B4A2D6D11"
+  }
+}
