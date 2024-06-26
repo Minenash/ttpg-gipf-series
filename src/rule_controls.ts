@@ -108,7 +108,7 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
     updateUIAndVerifyPage(obj, initState, initState);
     obj.onStateChanged.add( updateUIAndVerifyPage );
     
-    UI.widget = new Border().setChild(canvas).setColor(new Color(1,0,0,1));
+    // UI.widget = new Border().setChild(canvas).setColor(new Color(1,0,0,1));
     UI.widget = canvas;
     
     obj.addUI(UI);
