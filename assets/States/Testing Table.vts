@@ -504,7 +504,7 @@
 				{
 					"x": -2.2169809936510965e-06,
 					"y": 1.5212881942825087e-06,
-					"z": 5.4857929046327882e-07,
+					"z": 5.4857929046327871e-07,
 					"w": 0.9999999999962349
 				},
 				"translation":
@@ -572,14 +572,14 @@
 			{
 				"rotation":
 				{
-					"x": -3.1964820704077953e-06,
-					"y": -4.781848791509853e-06,
+					"x": -3.196482070407797e-06,
+					"y": -4.7818487915098556e-06,
 					"z": -5.9507808829520744e-08,
 					"w": 0.99999999998345612
 				},
 				"translation":
 				{
-					"x": -11.441609371902329,
+					"x": -11.441609371902331,
 					"y": -40.862141434630985,
 					"z": 87.091156973390127
 				},
@@ -642,7 +642,7 @@
 			{
 				"rotation":
 				{
-					"x": -2.6856281449957137e-06,
+					"x": -2.6856281449957145e-06,
 					"y": 1.1119094162464251e-06,
 					"z": 3.9789245922815694e-06,
 					"w": 0.99999999998785949
@@ -712,9 +712,9 @@
 			{
 				"rotation":
 				{
-					"x": -1.0359990433110942e-06,
-					"y": -1.1679203659725519e-06,
-					"z": 1.542872377587945e-06,
+					"x": -1.0359990433110946e-06,
+					"y": -1.1679203659725522e-06,
+					"z": 1.542872377587946e-06,
 					"w": 0.99999999999759082
 				},
 				"translation":
@@ -782,16 +782,16 @@
 			{
 				"rotation":
 				{
-					"x": -2.8612340344236217e-09,
-					"y": -9.4111933485185862e-07,
-					"z": 4.8727492025925356e-05,
-					"w": 0.99999999881237278
+					"x": 1.350537892413433e-06,
+					"y": -1.4731423422231887e-06,
+					"z": 6.2270315816528879e-05,
+					"w": 0.9999999980592067
 				},
 				"translation":
 				{
-					"x": 13.627105242127584,
-					"y": -77.669384545346873,
-					"z": 87.072248935008702
+					"x": 13.626947077718928,
+					"y": -77.669635084667789,
+					"z": 87.072251934835464
 				},
 				"scale3D":
 				{
@@ -852,16 +852,16 @@
 			{
 				"rotation":
 				{
-					"x": 2.1149380693565037e-06,
-					"y": -1.4369217801735005e-06,
-					"z": 0.00011971029318793432,
-					"w": 0.99999999283145391
+					"x": -5.4592715227621423e-07,
+					"y": 1.1987277566081173e-06,
+					"z": 0.00012901659103557725,
+					"w": 0.99999999167649201
 				},
 				"translation":
 				{
-					"x": 12.937739955463309,
-					"y": -72.789504451528515,
-					"z": 87.072253111550879
+					"x": 12.937513733754404,
+					"y": -72.789817623475969,
+					"z": 87.072250280578956
 				},
 				"scale3D":
 				{
@@ -1064,7 +1064,7 @@
 				{
 					"x": 1.4283012244645992e-08,
 					"y": 4.5511609093162456e-08,
-					"z": 4.7273596020250625e-06,
+					"z": 4.7273596020250633e-06,
 					"w": 0.99999999998882483
 				},
 				"translation":
@@ -1203,8 +1203,8 @@
 				"rotation":
 				{
 					"x": -9.5766771153888993e-06,
-					"y": -2.7190944536467296e-06,
-					"z": 0.00018675306960727394,
+					"y": -2.71909445364673e-06,
+					"z": 0.000186753069607274,
 					"w": 0.9999999825120921
 				},
 				"translation":
@@ -1274,7 +1274,7 @@
 				{
 					"x": 8.2292068018012382e-07,
 					"y": 3.1878171262939436e-07,
-					"z": 0.0024412116748539778,
+					"z": 0.0024412116748539782,
 					"w": 0.99999702023795045
 				},
 				"translation":
@@ -1344,7 +1344,7 @@
 				{
 					"x": 1.304048438844555e-06,
 					"y": 1.8804988757186261e-08,
-					"z": 0.00038442686685820858,
+					"z": 0.00038442686685820864,
 					"w": 0.99999992610713895
 				},
 				"translation":
@@ -1414,14 +1414,14 @@
 				{
 					"x": 1.144625766637858e-06,
 					"y": 6.173478612462426e-06,
-					"z": 4.3365503044346109e-08,
+					"z": 4.3365503044346128e-08,
 					"w": 0.99999999998028799
 				},
 				"translation":
 				{
 					"x": 13.713757617848382,
 					"y": -35.678504757173833,
-					"z": 87.09114571557744
+					"z": 87.091145715577454
 				},
 				"scale3D":
 				{
@@ -1482,7 +1482,7 @@
 			{
 				"rotation":
 				{
-					"x": -4.4228869575708001e-07,
+					"x": -4.4228869575708006e-07,
 					"y": -4.5425327689636431e-07,
 					"z": -5.2203624564758803e-06,
 					"w": 0.99999999998617295
@@ -1554,7 +1554,7 @@
 				{
 					"x": 3.4820943603019507e-08,
 					"y": 1.0478515226615254e-06,
-					"z": 0.00022929134781913779,
+					"z": 0.00022929134781913781,
 					"w": 0.99999997371218874
 				},
 				"translation":
@@ -1630,7 +1630,7 @@
 				"translation":
 				{
 					"x": -8.4661956186788156,
-					"y": -86.72288833015908,
+					"y": -86.722888330159094,
 					"z": 87.022260610135277
 				},
 				"scale3D":
@@ -1832,7 +1832,7 @@
 			{
 				"rotation":
 				{
-					"x": -8.3678187657989104e-10,
+					"x": -8.3678187657989135e-10,
 					"y": 1.3247287983860173e-06,
 					"z": -6.6304484058303858e-07,
 					"w": 0.99999999999890254
@@ -2112,7 +2112,7 @@
 			{
 				"rotation":
 				{
-					"x": -1.1556547377752573e-06,
+					"x": -1.1556547377752575e-06,
 					"y": 5.7284392484648722e-06,
 					"z": -2.6320274242523025e-07,
 					"w": 0.99999999998288991
@@ -2183,7 +2183,7 @@
 				"rotation":
 				{
 					"x": 1.2452276148591109e-05,
-					"y": -3.7859531937637086e-07,
+					"y": -3.7859531937637107e-07,
 					"z": -0.00014221814227092039,
 					"w": 0.99999998980939864
 				},
@@ -2322,16 +2322,16 @@
 			{
 				"rotation":
 				{
-					"x": -3.2539753631382237e-06,
+					"x": -3.253975363138225e-06,
 					"y": 1.3817297867380375e-06,
-					"z": 0.00039418315100480696,
+					"z": 0.00039418315100480706,
 					"w": 0.99999992230356982
 				},
 				"translation":
 				{
 					"x": -10.001094128652298,
 					"y": -73.436702748650589,
-					"z": 87.022268129056769
+					"z": 87.022268129056783
 				},
 				"scale3D":
 				{
@@ -2392,8 +2392,8 @@
 			{
 				"rotation":
 				{
-					"x": -9.9819082169331244e-07,
-					"y": -3.8014559800134058e-07,
+					"x": -9.9819082169331265e-07,
+					"y": -3.8014559800134069e-07,
 					"z": -0.0010931020915203806,
 					"w": 0.99999940256315967
 				},
@@ -2462,16 +2462,16 @@
 			{
 				"rotation":
 				{
-					"x": 0,
-					"y": 0,
-					"z": 0,
-					"w": 1
+					"x": -8.7926265132719856e-12,
+					"y": 1.194176587069309e-10,
+					"z": 1.5844314603923817e-06,
+					"w": 0.99999999999874467
 				},
 				"translation":
 				{
-					"x": -6.4473398002609033,
-					"y": -61.934617389217351,
-					"z": 87.022259521518009
+					"x": -6.4473395213861444,
+					"y": -61.934597109181304,
+					"z": 87.022259521308285
 				},
 				"scale3D":
 				{
@@ -2602,16 +2602,16 @@
 			{
 				"rotation":
 				{
-					"x": -1.353871841669948e-10,
-					"y": 1.282439495037645e-08,
+					"x": -1.3538718416699485e-10,
+					"y": 1.2824394950376455e-08,
 					"z": -0.99999999991425848,
 					"w": 1.3095141113157994e-05
 				},
 				"translation":
 				{
-					"x": -10.471485224579226,
-					"y": -88.752328540319795,
-					"z": 87.022257876766901
+					"x": -10.471487393961201,
+					"y": -88.752349036476687,
+					"z": 87.022259521162198
 				},
 				"scale3D":
 				{
@@ -2672,8 +2672,8 @@
 			{
 				"rotation":
 				{
-					"x": 1.017507519319227e-08,
-					"y": -8.3374556890637589e-08,
+					"x": 1.0175075193192271e-08,
+					"y": -8.3374556890637616e-08,
 					"z": 0.99999999999972522,
 					"w": 7.364972367742853e-07
 				},
@@ -2742,8 +2742,8 @@
 			{
 				"rotation":
 				{
-					"x": 7.4587255356385787e-11,
-					"y": -1.4402728546736504e-11,
+					"x": 7.45872553563858e-11,
+					"y": -1.4402728546736524e-11,
 					"z": 0.49999704149851937,
 					"w": 0.86602711186932657
 				},
@@ -2952,7 +2952,7 @@
 			{
 				"rotation":
 				{
-					"x": -2.0228658286072446e-06,
+					"x": -2.0228658286072458e-06,
 					"y": 3.1323813801262173e-06,
 					"z": -3.9510169336769603e-07,
 					"w": 0.99999999999296985
@@ -3028,16 +3028,16 @@
 			{
 				"rotation":
 				{
-					"x": 6.5333307807044178e-11,
-					"y": 2.9072542131069012e-07,
-					"z": -1.1968750997102853e-06,
-					"w": 0.9999999999992415
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
 				},
 				"translation":
 				{
-					"x": -14.025937977625635,
-					"y": 36.109604062807158,
-					"z": 86.972259550194835
+					"x": 22.434834214667895,
+					"y": 100.31494519251218,
+					"z": 86.972244288732725
 				},
 				"scale3D":
 				{
@@ -3047,7 +3047,149 @@
 				}
 			},
 			"simulatingPhysics": true,
-			"currentState": 2,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "B50A695E4658BFE0AB8C36A9A67916B4",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/most.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "axv",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 8.725282692064756e-08,
+					"y": -1.6203489116718206e-10,
+					"z": 86.972253441510915
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "00F6A6C94CCB685A5A7B608FA1161DB2",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 6.7953089161255424e-10,
+					"y": 1.4521476241675991e-07,
+					"z": 5.0825094279789497e-07,
+					"w": 0.99999999999986022
+				},
+				"translation":
+				{
+					"x": 45.791068593082507,
+					"y": 100.3794517446278,
+					"z": 86.972235132704611
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
 			"primaryColor":
 			{
 				"b": 255,
@@ -3080,12 +3222,367 @@
 				"z": 0
 			},
 			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
-			"objectScriptName": "rule_book.js",
+			"objectScriptName": "rules/yinsh.js",
 			"persistentData": "",
 			"persistentKeyData":
 			{
 			},
-			"uniqueId": "957",
+			"uniqueId": "04x",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -48.262325595864979,
+					"y": 100.44691512561181,
+					"z": 86.972274805402165
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "6DBB9EE5434B2F2B071B0681F5F3E524",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/lyngk_punct.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "7e2",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 21.912463376195962,
+					"y": 83.79166920571366,
+					"z": 86.972244285212199
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "536206424BF22E92580B87BE733E62BC",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/gipf.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "nh2",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -24.581567327272353,
+					"y": 100.52163688223655,
+					"z": 86.972265648083692
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "7174E72440D858D800BE1F868A93E8E5",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/most.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "k3e",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -1.2953984605266067,
+					"y": 100.53894431555804,
+					"z": 86.972253445167624
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "00F6A6C94CCB685A5A7B608FA1161DB2",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/lyngk_punct.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "3k7",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "MultistateObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 45.932559715851738,
+					"y": 84.011703088893853,
+					"z": 86.97223512885941
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"currentState": 0,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType4",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "E4B29C3F4001E622D188909CFED95C84",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "62667C674A0945E1AF56C079686DC3C6",
+			"objectScriptName": "rules/most.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "724",
 			"drawingLines": [],
 			"objectTags": [],
 			"objectGroupId": -1,

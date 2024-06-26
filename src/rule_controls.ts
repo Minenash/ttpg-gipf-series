@@ -1,71 +1,77 @@
 import {
     Border,
-    Button, Color,
+    Button, Canvas, Color,
     GameObject, HorizontalAlignment,
-    HorizontalBox,
+    HorizontalBox, LayoutBox,
     MultistateObject, Player,
-    refObject, TextBox,
+    refObject, Rotator, TextBox,
     UIElement,
-    Vector, VerticalBox
+    Vector, VerticalBox, Widget
 } from "@tabletop-playground/api";
 
 const BLACK = new Color(0,0,0,1);
 
-export function addPageUI (obj: MultistateObject, pages: Map<string,number[]>) {
-    let curLang = pages.get("English");
+export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], width: number}>) {
+    if (!(obj instanceof MultistateObject)) {
+        console.error("Not a Multistate object: " + obj.getName());
+        return;
+    }
+    
+    let curLangName = obj.getSavedData("curLangName").length > 0 ? obj.getSavedData("curLangName") : "English";
+    let curLang = obj.getSavedData("curLang").length > 0 ? JSON.parse(obj.getSavedData("curLang")) : pages.get("English");
     const maxState = obj.getNumStates()-1;
-    const initPage = obj.getState() + 1;
+    const initState = obj.getState();
 
     const setPage = (state: number) => {
         state = state > maxState ? maxState : state < 0 ? 0 : state;
         obj.setState(state);
     };
-
-    const barUI = new UIElement();
-    barUI.scale = 1/4;
-    barUI.anchorX = 0.5;
-    barUI.anchorY = 1;
-    barUI.position = new Vector(obj.getSize().y * -0.805, 0, 0.15 );
-
-    let pageTextBox = new TextBox().setText(initPage.toString()).setFontSize(24).setMaxLength(3);
-    let prev = new Button().setText("<").setFontSize(24).setEnabled( initPage != 1 );
-    let next = new Button().setText(">").setFontSize(24).setEnabled( initPage != (maxState+1) );
+    
+    const scale = 1/8;
+    const width = obj.getSize().y * 10 / scale;
+    const height = obj.getSize().x * 10 / scale * 1.1;
+    
+    const UI = new UIElement();
+    UI.scale = scale;
+    UI.width = width;
+    UI.height = height;
+    UI.useWidgetSize = false;
+    UI.anchorX = 0.5;
+    UI.anchorY = 0.5;
+    UI.position = new Vector(0,0,0.2);
+    UI.rotation = new Rotator(0,0,0);
+    
+    const canvas = new Canvas();
+    let prev = new Button().setText("<").setFontSize(48).setEnabled( initState != 0 );
+    let next = new Button().setText(">").setFontSize(48).setEnabled( initState != maxState );
     prev.onClicked.add( (p1: Button,p2: Player) => { setPage(obj.getState()-1); } )
     next.onClicked.add( (p1: Button,p2: Player) => { setPage(obj.getState()+1); } )
-    pageTextBox.setInputType(4);//Whole positive numbers
-    pageTextBox.onTextCommitted.add( (p1: TextBox,p2: Player,p3: string,p4: boolean) => {
-        if (p2 != undefined)
-            setPage(Number.parseInt(p3)-1);
-    })
+    canvas.addChild(border(prev), 0, height/2.3, 80, 160);
+    canvas.addChild(border(next), width-80, height/2.3, 80, 160);
 
-
-    const row = new HorizontalBox();
-    row.setHorizontalAlignment(HorizontalAlignment.Center);
-    row.addChild(prev);
-    row.addChild(pageTextBox);
-    row.addChild(next);
-    barUI.widget = new Border().setChild(row).setColor(BLACK);
-    obj.addUI(barUI);
-
-
-    const language = new Button().setText("English").setFontSize(24);
-
-    const languages = new UIElement();
-    languages.scale = 1/4;
-    languages.anchorX = 0;
-    languages.anchorY = 1;
-    languages.position = new Vector(obj.getSize().y * -0.71, obj.getSize().x * -0.33, 0.2 );
+    const language = new Button().setText(curLangName).setFontSize(32);
+    const languageBorder = border(language);
+    
     const column = new VerticalBox();
-    column.setVisible(false);
+    const languageSelect = border(column);
+    languageSelect.setVisible(false);
 
     const button = (lang: string) => {
         const button = new Button().setText(lang).setFontSize(24);
         button.onClicked.add( (p1: Button,p2: Player) => {
-            language.setText(lang);
             curLang = pages.get(lang);
-            column.setVisible(false);
+            languageSelect.setVisible(false);
+            if (curLang != undefined) {
+                curLangName = lang;
+                language.setText(curLangName);
+                canvas.removeChild(languageBorder);
+                canvas.addChild(languageBorder, 0, height-80, curLang.width, 80);
+                obj.setState(curLang.pages[1]-1);
+                obj.setSavedData(JSON.stringify(curLang), "curLang");
+                obj.setSavedData(curLangName, "curLangName");
+            }
         });
-        return new Border().setColor(BLACK).setChild(button);
+        return new LayoutBox().setPadding(0,0,6,4).setChild(button);
     }
 
     column.addChild( button("English") );
@@ -75,34 +81,40 @@ export function addPageUI (obj: MultistateObject, pages: Map<string,number[]>) {
     column.addChild( button("Nederlands") );
     column.addChild( button("Español") );
     column.addChild( button("Polski") );
-    languages.widget = new Border().setColor(BLACK).setChild(column);
-    obj.addUI(languages);
-
-    const barUI2 = new UIElement();
-    barUI2.scale = 1/4;
-    barUI2.anchorX = 0;
-    barUI2.anchorY = 1;
-    barUI2.position = new Vector(obj.getSize().y * -0.805, obj.getSize().x * -0.33, 0.2 );
-
+    
+    canvas.addChild(languageSelect, 0, height-(80*7)+27, 240, 80*6-27);
+    
     language.onClicked.add( (p1: Button,p2: Player) => {
-        column.setVisible(!column.isVisible());
-        obj.updateUI(languages);
+        languageSelect.setVisible(!languageSelect.isVisible());
     });
-    barUI2.widget = new Border().setColor(BLACK).setChild(language);
-    obj.addUI(barUI2);
+    canvas.addChild(languageBorder, 0, height-80, 180, 80);
 
-    obj.onStateChanged.add( (p1: MultistateObject,newState: number,oldState: number) => {
+    const updateUIAndVerifyPage = (p1: MultistateObject,newState: number,oldState: number) => {
         let page = newState +1;
-        if (curLang != undefined && curLang.indexOf(page) == -1) {
-            if (newState > oldState)
-                obj.setState( (curLang.find( (v) => v >= page) ?? curLang[curLang.length-1]) - 1 );
+        if (curLang != undefined && curLang.pages.indexOf(page) == -1) {
+            if (newState < oldState && oldState+1 == curLang.pages[1])
+                obj.setState(0);
             else
-                obj.setState( (curLang.findLast( (v) => v <= page) ?? 1) - 1);
+                obj.setState( curLang.pages[1]-1 );
             return;
         }
-        pageTextBox.setText( page.toString() );
         prev.setEnabled( page != 1 );
         if (curLang != undefined)
-            next.setEnabled( page != curLang[curLang.length-1] );
-    } );
+            next.setEnabled( page != curLang.pages[curLang.pages.length-1] );
+        else
+            next.setEnabled( page-1 <= maxState );
+    }
+    
+    updateUIAndVerifyPage(obj, initState, initState);
+    obj.onStateChanged.add( updateUIAndVerifyPage );
+    
+    UI.widget = new Border().setChild(canvas).setColor(new Color(1,0,0,1));
+    UI.widget = canvas;
+    
+    obj.addUI(UI);
+    
+}
+
+function border(widget: Widget) {
+    return new Border().setColor(BLACK).setChild(new LayoutBox().setPadding(4,4,4,4).setChild(widget));
 }
