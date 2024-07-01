@@ -42,14 +42,14 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
     UI.rotation = new Rotator(0,0,0);
     
     const canvas = new Canvas();
-    let prev = new Button().setText("<").setFontSize(48).setEnabled( initState != 0 );
-    let next = new Button().setText(">").setFontSize(48).setEnabled( initState != maxState );
+    let prev = new Button().setText("<").setFontSize(96).setEnabled( initState != 0 );
+    let next = new Button().setText(">").setFontSize(96).setEnabled( initState != maxState );
     prev.onClicked.add( (p1: Button,p2: Player) => { setPage(obj.getState()-1); } )
     next.onClicked.add( (p1: Button,p2: Player) => { setPage(obj.getState()+1); } )
-    canvas.addChild(border(prev), 0, height/2.3, 80, 160);
-    canvas.addChild(border(next), width-80, height/2.3, 80, 160);
+    canvas.addChild(border(prev), 0, height/2.3, 160, 400);
+    canvas.addChild(border(next), width-160, height/2.3, 160, 400);
 
-    const language = new Button().setText(curLangName).setFontSize(32);
+    const language = new Button().setText(curLangName).setFontSize(64);
     const languageBorder = border(language);
     
     const column = new VerticalBox();
@@ -57,7 +57,7 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
     languageSelect.setVisible(false);
 
     const button = (lang: string) => {
-        const button = new Button().setText(lang).setFontSize(24);
+        const button = new Button().setText(lang).setFontSize(48);
         button.onClicked.add( (p1: Button,p2: Player) => {
             curLang = pages.get(lang);
             languageSelect.setVisible(false);
@@ -65,13 +65,13 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
                 curLangName = lang;
                 language.setText(curLangName);
                 canvas.removeChild(languageBorder);
-                canvas.addChild(languageBorder, 0, height-80, curLang.width, 80);
+                canvas.addChild(languageBorder, 0, height-160, curLang.width*2, 160);
                 obj.setState(curLang.pages[1]-1);
                 obj.setSavedData(JSON.stringify(curLang), "curLang");
                 obj.setSavedData(curLangName, "curLangName");
             }
         });
-        return new LayoutBox().setPadding(0,0,6,4).setChild(button);
+        return new LayoutBox().setPadding(0,0,12,8).setChild(button);
     }
 
     column.addChild( button("English") );
@@ -82,20 +82,38 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
     column.addChild( button("Español") );
     column.addChild( button("Polski") );
     
-    canvas.addChild(languageSelect, 0, height-(80*7)+27, 240, 80*6-27);
+    canvas.addChild(languageSelect, 0, height-(160*6.4)+27, 480, 160*5.4-27);
     
     language.onClicked.add( (p1: Button,p2: Player) => {
         languageSelect.setVisible(!languageSelect.isVisible());
     });
-    canvas.addChild(languageBorder, 0, height-80, 180, 80);
+    canvas.addChild(languageBorder, 0, height-160, 360, 160);
 
     const updateUIAndVerifyPage = (p1: MultistateObject,newState: number,oldState: number) => {
         let page = newState +1;
+        
         if (curLang != undefined && curLang.pages.indexOf(page) == -1) {
-            if (newState < oldState && oldState+1 == curLang.pages[1])
-                obj.setState(0);
-            else
-                obj.setState( curLang.pages[1]-1 );
+            if (newState > oldState) {
+                for (let i = 0; i < curLang.pages.length; i++) {
+                    if (curLang.pages[i] >= page) {
+                        obj.setState(curLang.pages[i]-1);
+                        return;
+                    }
+                }
+            }
+            else {
+                for (let i = 0; i < curLang.pages.length; i++) {
+                    if (curLang.pages[i] <= page) {
+                        obj.setState(curLang.pages[i]-1);
+                        return;
+                    }
+                }
+            }
+            
+            // if (newState < oldState && oldState+1 == curLang.pages[1])
+            //     obj.setState(0);
+            // else
+            //     obj.setState( curLang.pages[1]-1 );
             return;
         }
         prev.setEnabled( page != 1 );
@@ -116,5 +134,5 @@ export function addPageUI (obj: GameObject, pages: Map<string,{pages: number[], 
 }
 
 function border(widget: Widget) {
-    return new Border().setColor(BLACK).setChild(new LayoutBox().setPadding(4,4,4,4).setChild(widget));
+    return new Border().setColor(BLACK).setChild(new LayoutBox().setPadding(8,8,8,8).setChild(widget));
 }
